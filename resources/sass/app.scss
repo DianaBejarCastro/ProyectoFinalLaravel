@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+body {
+    background-color: rgb(255, 242, 255);
+    margin: 0;
+}
+
+
+
+//.active a {
+//    color: rgb(255, 0, 119);
+//    text-decoration: none;
+//}
+
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+
+.formulario input,
+select,
+button,
+label {
+    height: 35px;
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.errorMsg {
+    color: red;
+}
+
+.formulario button {
+    background-color: rgb(92, 49, 112);
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+
+button {
+    background-color: rgb(82, 26, 82);
+    color: aliceblue;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+
+.btn-list {
+    color: #f8f8f8;
+}
